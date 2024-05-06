@@ -1,0 +1,9 @@
+CREATE TABLE usuarios (
+	id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	nomeCompleto VARCHAR(200) NOT NULL,
+	usuario VARCHAR(60) NOT NULL,
+	senha VARCHAR(32) NOT NULL,
+	nivel INT NOT NULL,
+	dataCriacao TIMESTAMP NOT NULL DEFAULT NOW(),
+	dataAlteracao TIMESTAMP NOT null
+	);
