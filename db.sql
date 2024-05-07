@@ -1,3 +1,10 @@
+-- cria base de dados chamada gestao
+create database gestao;
+
+-- coloca a base de dados em uso
+use gestao;
+
+-- cria a tabela de usuarios
 CREATE TABLE usuarios (
 	id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 	nomeCompleto VARCHAR(200) NOT NULL,
