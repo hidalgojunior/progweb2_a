@@ -9,7 +9,7 @@
     if (!$con){
         echo "Erro ao conectar ao banco";
     }
-    else{
-        echo "Conectou ao banco";
-    }
+    // else{
+    //     echo "Conectou ao banco";
+    // }
 ?>

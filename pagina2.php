@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="divider"></div>
-        <form action="" method="POST" class="form-control">
+        <form action="cad_user.php" method="POST" class="form-control">
             <div class="row m-3">
                 <div class="col-2">
                     <label for="nome">Nome Completo</label>
@@ -52,19 +52,19 @@
                 <div class="col-2">
                     <label for="senha1">Digite sua senha</label>
                 </div>
-                <div class="col-4">
+                <div class="col-10">
                     <input type="password" name="senha1" id="senha1" class="form-control">
                 </div>
-                <div class="col-2">
+                <!-- <div class="col-2">
                     <label for="nivel">Redigite sua senha</label>
                 </div>
                 <div class="col-4">
                     <input type="password" name="senha2" id="senha2" class="form-control">
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button class="btn btn-large btn-outline-success form-control">Cadastrar</button>
+                    <button class="btn btn-large btn-outline-success form-control" name="cadastrar">Cadastrar</button>
                 </div>
                 <div class="col-6">
                     <button class="btn btn-large btn-outline-danger form-control">Limpar</button>
@@ -72,6 +72,11 @@
                 </div>
             </div>
         </form>
+        <div class="row">
+            <col-12>
+                <h2><strong>git clone</strong> https://github.com/hidalgojunior/progweb2_a</h2>
+            </col-12>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
