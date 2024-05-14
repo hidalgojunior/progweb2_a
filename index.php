@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <form method="post" class="form-control">
+                <form method="post" class="form-control" action="logar.php">
                 <div class="row p-2">
                         <div class="col-12">
                             <label for="user">Usuário</label>
@@ -36,9 +36,9 @@
                     </div>
                     <div class="row p-2">
                         <div class="col-6">
-                            <a href="logar.php" class="btn btn-success form-control">
+                            <button class="btn btn-success form-control" name="processar">
                                 Logar
-                            </a>
+</button>
                         </div>
                         <div class="col-6">
                         <a href="reset.php"class="btn btn-danger form-control">
